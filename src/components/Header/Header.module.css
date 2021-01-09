@@ -1,0 +1,38 @@
+.title span:first-child {
+  color: var(--color-purpure);
+  font-size: 150px;
+  line-height: 120px;
+}
+
+.title span:nth-child(2) {
+  color: var(--color-aqua);
+  font-size: 100px;
+  line-height: 80px;
+}
+
+.title span:last-child {
+  color: var(--color-orange);
+  font-size: 50px;
+  line-height: 50px;
+}
+
+@media (min-width: 375px) {
+  .container {
+    font-family: 'Fredoka One';
+  }
+
+  .title {
+    font-size: 150px;
+    line-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}

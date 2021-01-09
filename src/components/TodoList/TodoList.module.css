@@ -1,0 +1,25 @@
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.placeholder {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Inconsolata;
+  font-size: 50px;
+  line-height: 52px;
+  color: var(--color-orange);
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}

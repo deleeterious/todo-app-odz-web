@@ -1,0 +1,12 @@
+.addBtn {
+  margin-top: 10px;
+  background-color: rgba(119, 0, 255, 0.5);
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .addBtn {
+    width: 30%;
+    margin: 10px auto;
+  }
+}
